@@ -1,5 +1,6 @@
 # Farkle.py
 # The game of Farkle
+# Version 002b
 
 # Print the brief description over two lines.
 
