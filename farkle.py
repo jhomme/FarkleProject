@@ -1,21 +1,10 @@
-# Farkle.py
-# Version 004a
-# Variables and printing
+# farkle.py
+# Game setup code and getting input.
 
-# Assign Variables
 
-d1 = 1
-d2 = 2
-d3 = 3
-d4 = 4
-d5 = 5
-d6 = 6
-
-# Print what is in the variables
-
-print (d1)
-print(d2)
-print(d3)
-print(d4)
-print(d5)
-print(d6)
+playerName = input("Hello player! What is your name? ")
+print("Nice to meet you " + playerName + "!")
+print("We are pretending that you rolled a physical di. You can roll one if you want to. Either way, tell me what you rolled.")
+di = int(input("What did you roll?"))
+print ("You rolled a " + str(di))
+print("See you next time.")
